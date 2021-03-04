@@ -37,12 +37,16 @@
   <section id="threeStep">
     <div class="ts3_content">
       <div class="ts3_content--info">Simulación: Seleccione una materia y presione el botón</div>
+      <p>*Requisito: Para visualizar la notificación debe haberse logueado previamente en la app y tener la aplicación en segundo plano o cerrada.</p>
       <div class="ts3_content--main">
         <div class="ts3_content--main_left">
-          <div class="option" [class.active]="isActive(0)" (click)="subjectSelected(0)">Algoritmos y Estructura de Datos<div class="day">(Vie. 04/12)</div></div>
-          <div class="option" [class.active]="isActive(1)" (click)="subjectSelected(1)">Sistemas y Organizaciones<div class="day">(Mie. 09/12)</div></div>
-          <div class="option" [class.active]="isActive(2)" (click)="subjectSelected(2)">Matemática Discreta <div class="day">(Jue. 10/12)</div></div>
-          <div class="option" [class.active]="isActive(3)" (click)="subjectSelected(3)">Arquitectura de Computadoras<div class="day">(Mie. 16/12)</div></div>
+          <div class="option" [class.active]="isActive(0)" (click)="subjectSelected(0)">Matemática Discreta <div class="day">(Jue. 04/03)</div></div>
+          <div class="option" [class.active]="isActive(1)" (click)="subjectSelected(1)">Algoritmos y Estructura de Datos<div class="day">(Vie. 05/03)</div></div>
+          <div class="option" [class.active]="isActive(2)" (click)="subjectSelected(2)">Sistemas y Organizaciones<div class="day">(Mie. 10/03)</div></div>
+          <div class="option" [class.active]="isActive(3)" (click)="subjectSelected(3)">Matemática Discreta <div class="day">(Jue. 11/03)</div></div>
+          <div class="option" [class.active]="isActive(4)" (click)="subjectSelected(4)">Arquitectura de Computadoras<div class="day">(Mie. 17/03)</div></div>
+          <div class="option" [class.active]="isActive(5)" (click)="subjectSelected(5)">Matemática Discreta <div class="day">(Jue. 18/03)</div></div>
+          <div class="option" [class.active]="isActive(6)" (click)="subjectSelected(6)">Matemática Discreta <div class="day">(Lun. 29/03)</div></div>
         </div>
         <div class="ts3_content--main_right">
           <div class="btns" (click)="tofourStep()"><fa-icon class="fullSize" [icon]="faPaperPlane"></fa-icon></div> 
@@ -69,12 +73,43 @@
       <div class="fs5_content_left">
         <div class="smartphone">
           <div class="content">
-            <img src="./assets/starf2.gif" alt="">
+            <!-- <img src="./assets/starf2.gif" alt=""> -->
           </div>
         </div>
       </div>
       <div class="fs5_content_right">
         En el Subsistema móvil se puede visualizar el historial de asistencias de las materias a las cuáles está inscripto.
+      </div>
+    </div>
+  </section>
+  <section id="psixStep">
+    <div class="ss6_content">
+      <div class="ss6_content--main">
+        <div class="ss6_content--main-summary">
+          <div>El Subsistema de Gestión permite consultar el porcentaje de asistencia, efectuar una carga de asistencia manual y cargar una excepción(Asistencia a todos los alumnos inscriptos.)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sixStep">
+    <div class="ss6_content">
+      <div class="ss6_content--info">Información Pruebas Subsistema de Gestión: Comisión y Materias listadas</div>
+      <div class="ss6_content--main">
+        <div class="ss6_content--main-comision">
+          <h3><span>Comisión:</span>  1k1</h3>
+        </div>
+        <div class="ss6_content--main-alumnos">
+          <h3>Alumnos inscriptos</h3>
+          <p><span>Alumno:</span> Romano Martín, <span>Legajo:</span> 36034</p>
+          <p><span>Alumno:</span> Usuario Prueba, <span>Legajo:</span> 30344</p>
+        </div>
+        <div class="ss6_content--main-materias">
+          <h3>Materias dictadas en la Comisión 1k1 con alumnos de prueba inscriptos:</h3>
+          <div class="ss6_content--main-materia"><span>Materia:</span> Matemática Discreta, <span>Dias de cursado:</span> Lunes, Jueves</div>
+          <div class="ss6_content--main-materia"><span>Materia:</span> Algoritmos y Estructura de Datos, <span>Dias de cursado:</span> Martes, Viernes</div>
+          <div class="ss6_content--main-materia"><span>Materia:</span> Sistemas y Organizaciones, <span>Dias de cursado:</span> Miércoles, Jueves</div>
+          <div class="ss6_content--main-materia"><span>Materia:</span> Arquitectura de Computadoras, <span>Dias de cursado:</span> Miércoles, Jueves</div>
+        </div>
       </div>
     </div>
   </section>

@@ -31,6 +31,13 @@ section{
     background: #fff;
     color: #29375b;
   }
+  &:nth-of-type(7){
+    background: #ff6a3d;
+  }
+  &:nth-of-type(8){
+    background: #29375b;
+    color: #fff;
+  }
 }
 #fourStep{
   padding: 12em 6em 0 6em;
@@ -132,6 +139,9 @@ section{
   height: 100%;
   justify-content: center;
   align-items: center;
+  p{
+    color:#fff;
+  }
   &--info{
     height: 20%;
     color: #fff;
@@ -150,19 +160,19 @@ section{
       .option{
         background: #fff;
         padding: 5px;
-        font-size: 20px;
+        font-size: 12px;
         border-radius: 10px;
         text-align: center;
         font-weight: bold;
         color: #29375b;
         cursor: pointer;
-        margin: 20px;
+        margin: 10px;
         &:hover {
           background: #ff6a3d;
           color: #fff;
         }
         .day{
-          font-size: 15px;
+          font-size: 12px;
         }
       }
       .active {
@@ -207,6 +217,57 @@ section{
   }
   &_left{
     width: 50%;
+  }
+}
+.ss6_content{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  &--info{
+    height: 20%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:50px;
+  }
+
+  &--main{
+    display: flex;
+    flex-flow: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    &-summary{
+      text-align: center;
+      font-size: 36px;
+    }
+    &-comision{
+      span{
+        margin:0 10px 0 10px;
+        color: #ff6a3d;
+      }
+    }
+    &-alumnos{
+      text-align: center;
+      span{
+        margin:0 10px 0 10px;
+        color: #ff6a3d;
+      }
+    }
+    &-materia{
+      background-color: #fff;
+      color: #29375b;
+      padding: 10px;
+      margin:10px;
+      border-radius: 5px;
+      span{
+        color: #ff6a3d;
+      }
+    }
+
   }
 }
 .smartphone {
@@ -256,7 +317,7 @@ section{
 .smartphone .content {
   width: 300px;
   height: 500px;
-  background: white;
+  background: #333;
   overflow:hidden;
 }
 .btns {

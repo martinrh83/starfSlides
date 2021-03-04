@@ -25,28 +25,49 @@ export class AppComponent {
     legajo : "30344", 
     alumno: "User Prueba",
     confidence: "45", 
-    datetime: "Fri, 04 Dec 2020 11:35:00 -03 -03:00"
+    datetime: "Thu, 04 Mar 2021 08:35:00 -03 -03:00"
+  },//discreta
+  {
+    task_id: "1",
+    legajo : "30344", 
+    alumno: "User Prueba",
+    confidence: "45", 
+    datetime: "Fri, 05 Mar 2021 11:35:00 -03 -03:00"
   },//algoritmos
   {
     task_id: "1",
     legajo : "30344", 
     alumno: "User Prueba",
     confidence: "45", 
-    datetime: "Wed, 09 Dec 2020 08:35:00 -03 -03:00"
+    datetime: "Wed, 10 Mar 2021 08:35:00 -03 -03:00"
   },//syo
   {
     task_id: "1",
     legajo : "30344", 
     alumno: "User Prueba",
     confidence: "45", 
-    datetime: "Thu, 10 Dec 2020 08:35:00 -03 -03:00"
+    datetime: "Thu, 11 Mar 2021 08:35:00 -03 -03:00"
   },//mat discrtea
   {
     task_id: "1",
     legajo : "30344", 
     alumno: "User Prueba",
     confidence: "45", 
-    datetime: "Wed, 16 Dec 2020 10:16:00 -03 -03:00"
+    datetime: "Wed, 17 Mar 2021 10:16:00 -03 -03:00"
+  },
+  {
+    task_id: "1",
+    legajo : "30344", 
+    alumno: "User Prueba",
+    confidence: "45", 
+    datetime: "Thu, 18 Mar 2021 08:45:00 -03 -03:00"
+  },
+  {
+    task_id: "1",
+    legajo : "30344", 
+    alumno: "User Prueba",
+    confidence: "45", 
+    datetime: "Mon, 29 Mar 2021 10:30:00 -03 -03:00"
   }]//arq
   optionSeleted: any;
   activeButton: any;
